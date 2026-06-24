@@ -184,8 +184,7 @@ rainbow-board/
 │   │   ├── db/            # SQLite 数据库与表结构
 │   │   └── config/        # 运行时配置
 │   └── package.json
-├── docs/              # 需求文档与设计规范
-├── assets/            # README 截图与演示素材
+├── assets/            # README 截图与联系素材
 ├── README.md
 └── LICENSE
 ```
@@ -205,6 +204,15 @@ rainbow-board/
 ## 📄 License
 
 本项目基于 [MIT License](./LICENSE) 开源。
+
+---
+
+## 📮 联系作者
+
+- 微信：鳕小堡
+- 欢迎交流 AIGC 工作流、创作工具与合作机会
+
+![联系作者](./assets/contact-wechat.jpg)
 
 ---
 
