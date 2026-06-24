@@ -1,0 +1,9 @@
+{
+  "uploadDir": "./uploads",
+  "textModel": {
+    "protocol": "openai",
+    "apiUrl": "",
+    "apiKey": "",
+    "model": ""
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "infinite-aigc-backend",
+  "version": "0.1.0",
+  "description": "RainbowBoard 后端服务 - 为 AIGC 创作者设计的无限画布工作流编辑器",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "type-check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xue-xiaobao/rainbow-board.git"
+  },
+  "keywords": [
+    "aigc",
+    "workflow",
+    "canvas",
+    "editor",
+    "image-generation",
+    "video-generation",
+    "dreamina"
+  ],
+  "author": "RainbowBoard Contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xue-xiaobao/rainbow-board/issues"
+  },
+  "homepage": "https://github.com/xue-xiaobao/rainbow-board#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^9.0.1",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "@types/multer": "^1.4.11",
+    "@types/uuid": "^9.0.7",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

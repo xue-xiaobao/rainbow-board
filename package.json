@@ -1,0 +1,20 @@
+{
+  "name": "rainbow-board",
+  "version": "1.0.0",
+  "description": "无限画布工作流编辑器，为 AIGC 创作者设计。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "playwright": "^1.61.0"
+  }
+}
