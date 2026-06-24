@@ -25,6 +25,10 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://rainbow-board.vercel.app/">在线体验</a>
+</p>
+
 > 不是单点模型调用器，而是一个强调项目化、连续性和可追溯执行的可视化工作台。
 
 </div>
@@ -96,6 +100,12 @@
 | 数据库 | SQLite3 |
 | 存储 | 本地文件系统（上传资源） |
 | AI 接入 | 即梦 CLI、OpenAI API、GPT Image |
+
+---
+
+## 🔗 在线访问
+
+- 在线演示：<https://rainbow-board.vercel.app/>
 
 ---
 
